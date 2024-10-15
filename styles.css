@@ -1,0 +1,114 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+  line-height: 1.6;
+  color: #333;
+  padding: 20px 200px;
+  background-color: #f9f9f9;
+}
+
+header h1 {
+  color: #e53935;
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  margin-bottom: 0.5rem;
+}
+
+header h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+main{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+article div ul li{
+  margin-left: 20px;
+}
+
+.main-image {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.main-image img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+.main-image p {
+  margin-top: 0.5rem;
+  font-style: italic;
+  color: #555;
+}
+
+.destinations {
+  margin-bottom: 2rem;
+}
+
+.destinations h3 {
+  font-size: 1.5rem;
+  color: #e53935;
+}
+
+.destinations h4 {
+  font-size: 1.8rem;
+  margin-bottom: 1rem;
+}
+
+.destination {
+  margin-bottom: 2rem;
+}
+
+.destination img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+  margin-bottom: 0.5rem;
+}
+
+.destination h5 {
+  font-size: 1.2rem;
+  margin-bottom: 0.5rem;
+}
+
+.destination p {
+  margin-bottom: 0.5rem;
+  color: #555;
+}
+
+.destination span {
+  font-size: 0.9rem;
+}
+
+li{
+  font-weight: bold;
+}
+
+footer {
+  border-top: 1px solid gray  ;
+  text-align: center;
+  margin-top: 2rem;
+  padding: 20px
+}
+
+footer p {
+  margin-bottom: 0.5rem;
+}
+
+.credit {
+  color: #000;
+  
+  font-family: "Alice"
+
+}
